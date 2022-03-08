@@ -1,0 +1,321 @@
+/* ============
+ ALL COMMON CSS START
+=============== */
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+ul,li{
+
+   list-style: none;   
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+/* ================
+ALL COMMON CSS END
+================= */
+
+
+
+/* ============
+Navbar start
+=============== */
+#navigation{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(0, 0, 0,44%);
+    position: absolute;
+}
+.main_menu .logo{
+    height: 90px;
+    width: 170px;
+    float: left;
+    line-height: 90px;
+}
+.main_menu .menu{
+    width: 1000px;
+    height: 90px;
+    float: left;  
+}
+.main_menu ul{
+    text-align: right;
+}
+.main_menu ul li{ 
+    display: inline-block;
+    font-size: 14px; 
+    line-height:90px;
+}
+.main_menu ul li a{
+    color: rgb(243, 236, 224);
+    margin-left: 40px;
+    text-transform: uppercase;
+     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.main_menu ul li a.still{
+    color: turquoise;
+ }
+ .main_menu ul li a:hover{
+     color: turquoise;
+     transition: all linear .3s;
+ }
+/* ============
+ Navbar end
+=============== */
+
+
+/* ============
+Baner start
+=============== */
+#baner{
+    padding-top:321px ;
+    padding-bottom: 243px;
+    background: url(../imeges/baner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.baner_main{
+    text-align: center;
+}
+.baner_main h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; 
+    text-transform: uppercase;
+}
+.baner_main h2{
+    color: #fff;
+    font-size:40px ;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    margin-top: -10px;
+    padding-bottom: 4px;
+}
+.baner_main p{
+    color:#fff;
+    font-size: 14px;
+    font-weight:400;
+    font-family: 'Roboto', sans-serif; 
+}
+/* ============
+ Benar end
+=============== */
+
+
+
+/* ============
+ Second section start
+=============== */
+#second{
+    padding-top: 80px;
+    padding-bottom: 83px;
+   background-color:rgb(230, 228, 228);
+   text-align: center;
+   height: 700px;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    color: rgb(#444444);
+    font-size: 30px;
+    font-weight:300;
+    font-family: 'Roboto Slab', serif;
+}
+.heading h2{
+    color: #666666;
+    font-size: 14px;
+    font-weight:400;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 82px;
+}
+.heading h3{
+    color: rgb(#444444);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+/* ============
+Second section end
+=============== */
+
+
+
+/* ============
+Service start
+=========== */
+
+/********Service 1s start****** */
+
+.test{
+    height:370px;
+    width:370px;
+    background-color:#fff;
+    float: left;
+   
+}
+.heading_main_1{
+    width: 370px;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+.heading_main_1 h1{
+    color: #444444;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.heading_main_1 p{
+    color: #666666;
+    font-size: 14px;
+    
+}
+/*****Service 2nd start****** */
+
+
+.testa{
+    height:370px;
+    width:370px;
+    background-color:#fff;
+    float: left;
+    margin-left: 30px;
+    margin-right:30px;
+}
+
+.heading_main_2{
+    width:370px;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+.heading_main_2 h1{
+    color: #444444;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.heading_main_2 p{
+    color: #666666;
+    font-size: 14px;
+}
+
+/********Service 3rd start*******/
+
+
+.testall{
+    height:370px;
+    width:370px;
+    background-color:#fff;
+    float: left;
+}
+.heading_main_3{
+    width: 370px;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+.heading_main_3 h1{
+    color: #444444;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.heading_main_3 p{
+    color: #666666;
+    font-size: 14px;}
+
+/* ============
+Service End
+=========== *
+
+/*============
+ instagram start
+  ============*/
+#instagram{}
+.insta_head{
+     background-color:#444444;
+     text-align: center;
+    padding-top:46px;
+    padding-bottom: 40px;
+}
+.insta_head h2{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    display: inline block;
+ 
+}
+.insta_head h2::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: red;
+    left: -115px;
+    top: 50%;
+}
+.insta_head h2::before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: red;
+    right: -115px;
+    top: 50%;
+}
+.insta_img_main .insta_image{
+    width: 25%; 
+    float: left;
+}
+.insta_img_main .insta_image img{
+    width: 100%;
+    height: auto;
+
+}
+  /*============
+ instagram end
+  ============*/
+
+ /*============
+  logo insta start
+  ============*/
+
+
+
+
+
+  /*============
+ logo insta end
+  ============*/
